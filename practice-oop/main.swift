@@ -7,6 +7,13 @@
 
 import Foundation
 
-let filePath = "/Users/chaileasevn/Downloads/input.txt"
+let filePathDay1 = "/Users/chaileasevn/Desktop/Code/practice-oop/practice-oop/inputDay1.txt"
 
-print(part2(path: filePath))
+let day1 = Day1(path: filePathDay1)
+
+// Use struct instead of class
+let filePathDay2 = "/Users/chaileasevn/Desktop/Code/practice-oop/practice-oop/inputDay2.txt"
+
+let day2 = Day2(path: filePathDay2)
+day2.solve()
+

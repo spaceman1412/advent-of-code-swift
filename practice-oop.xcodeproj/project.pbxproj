@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C6B9CB92CCA28F400614B96 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B9CB82CCA28F400614B96 /* main.swift */; };
 		5C8406182CCB835B006973B5 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8406172CCB835B006973B5 /* day1.swift */; };
+		5C9A83252CD0CB8200AB62D2 /* day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A83242CD0CB8200AB62D2 /* day2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,10 @@
 /* Begin PBXFileReference section */
 		5C6B9CB52CCA28F400614B96 /* practice-oop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "practice-oop"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6B9CB82CCA28F400614B96 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		5C6B9CBF2CCA2DC700614B96 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input.txt; path = ../../../../Downloads/input.txt; sourceTree = "<group>"; };
+		5C6B9CBF2CCA2DC700614B96 /* inputDay1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = inputDay1.txt; path = ../../../../Downloads/inputDay1.txt; sourceTree = "<group>"; };
 		5C8406172CCB835B006973B5 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
+		5C9A83232CD0C99B00AB62D2 /* inputDay2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = inputDay2.txt; sourceTree = "<group>"; };
+		5C9A83242CD0CB8200AB62D2 /* day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,11 @@
 		5C6B9CB72CCA28F400614B96 /* practice-oop */ = {
 			isa = PBXGroup;
 			children = (
-				5C6B9CBF2CCA2DC700614B96 /* input.txt */,
+				5C6B9CBF2CCA2DC700614B96 /* inputDay1.txt */,
 				5C6B9CB82CCA28F400614B96 /* main.swift */,
 				5C8406172CCB835B006973B5 /* day1.swift */,
+				5C9A83232CD0C99B00AB62D2 /* inputDay2.txt */,
+				5C9A83242CD0CB8200AB62D2 /* day2.swift */,
 			);
 			path = "practice-oop";
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C8406182CCB835B006973B5 /* day1.swift in Sources */,
+				5C9A83252CD0CB8200AB62D2 /* day2.swift in Sources */,
 				5C6B9CB92CCA28F400614B96 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
